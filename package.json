@@ -1,0 +1,35 @@
+{
+  "name": "tasklistapi",
+  "version": "1.0.0",
+  "description": "REST application for tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "job": "node ./jobs/jobs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anirudhit/node-crud.git"
+  },
+  "keywords": [
+    "REST",
+    "Task"
+  ],
+  "author": "anirudh bellamkonda",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/anirudhit/node-crud/issues"
+  },
+  "homepage": "https://github.com/anirudhit/node-crud#readme",
+  "devDependencies": {
+    "mongo-scheduler": "^1.1.9",
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.12"
+  }
+}
